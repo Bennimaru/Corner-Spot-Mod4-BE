@@ -4,7 +4,5 @@ class Api::V1::ItemsController < ApplicationController
     @items = Item.all
     render json: @items
   end
-
-  private
-
+  
 end
